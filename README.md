@@ -2,7 +2,9 @@
 
 <img src="max-power-transfer.png"
      alt="Yük direnci güç grafiği"
-     width="400">
+     height="250"><img src="maksimum_guc_transferi.png"
+     alt="Yük direnci güç grafiği"
+     height="250">
 
 Bu devrede güç kaynağının iç direnci gerçekte çok küçük olduğundan ihmal edilmiştir. Bunun yerine, deneysel çalışmada kaynak direncini temsil etmesi amacıyla hârici olarak  
 $R_S = 100\Omega$’luk bir direnç kullanılmıştır. Deneyde yük direnci $R_L$ için sırasıyla  
@@ -57,7 +59,7 @@ $$
 Buradan
 
 $$
-R_L = R_S = 100\,\Omega
+R_L = R_S = 100\Omega
 $$
 
 sonucu elde edilir. Yani maksimum güç transferi, yük direncinin kaynak direncine eşit olduğu durumda gerçekleşir.
