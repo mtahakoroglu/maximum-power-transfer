@@ -68,7 +68,7 @@ sonucu elde edilir. Yani maksimum güç transferi, yük direncinin kaynak direnc
 
 #### Nümerik Çözüm
 
-Aşağıda verilen Python kodu kullanılarak yük direncine bağlı güç değişimi sayısal olarak hesaplanmış ve grafik üzerinde gösterilmiştir. Grafikten de görüldüğü üzere, güç maksimum değerine $R_L = 100\,\Omega$ değerinde ulaşmaktadır.
+Aşağıda verilen Python kodu kullanılarak yük direncine bağlı güç değişimi sayısal olarak hesaplanmış ve grafik üzerinde gösterilmiştir. Grafikten de görüldüğü üzere, güç maksimum değerine $R_L = 100\Omega$ değerinde ulaşmaktadır.
 
 ```python
 import numpy as np
