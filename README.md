@@ -6,9 +6,7 @@
      alt="Yük direnci güç grafiği"
      height="250">
 
-Bu devrede güç kaynağının iç direnci gerçekte çok küçük olduğundan ihmal edilmiştir. Bunun yerine, deneysel çalışmada kaynak direncini temsil etmesi amacıyla hârici olarak  
-$R_S = 100\Omega$’luk bir direnç kullanılmıştır. Deneyde yük direnci $R_L$ için sırasıyla  
-$[22,47,100,150,180]\Omega$ değerleri seçilerek güç ölçümleri yapılmıştır.
+Bu devrede güç kaynağının iç direnci gerçekte çok küçük olduğundan ihmal edilmiştir. Bunun yerine, deneysel çalışmada kaynak direncini temsil etmesi amacıyla hârici olarak $R_S = 100\Omega$'luk bir direnç kullanılmıştır. Deneyde yük direnci $R_L$ için sırasıyla $[22,47,100,150,180]\Omega$ değerleri seçilerek güç ölçümleri yapılmıştır.
 
 Bu bölümde önce maksimum güç transferi için teorik olarak gerekli yük direnci $R_L$ değeri bulunacak, ardından sonuçlar Python kullanılarak sayısal olarak hesaplanıp grafiksel olarak gösterilecektir.
 
@@ -38,7 +36,7 @@ $$
 V_L = \frac{R_L}{R_S + R_L} V_S
 $$
 
-şeklinde ifade edilir. Bu ifade güç denkleminde yerine konulduğunda, $V_S$ ve $R_S$’nin sabit olduğu ve yük direnci üzerindeki gücün yalnızca $R_L$’ye bağlı olduğu görülür:
+şeklinde ifade edilir. Bu ifade güç denkleminde yerine konulduğunda, $V_S$ ve $R_S$'nin sabit olduğu ve yük direnci üzerindeki gücün yalnızca $R_L$'ye bağlı olduğu görülür:
 
 $$
 P_L(R_L) = \frac{R_L^2 V_S^2}{(R_S + R_L)^2} \cdot \frac{1}{R_L}
