@@ -1,12 +1,10 @@
 ### Maksimum Güç Transferi
 
-<img src="max-power-transfer.png"
+<img src="power-transfer.jpg"
      alt="Yük direnci güç grafiği"
-     height="250"><img src="maksimum_guc_transferi.png"
-     alt="Yük direnci güç grafiği"
-     height="250">
+     height="300">
 
-Bu devrede güç kaynağının iç direnci gerçekte çok küçük olduğundan ihmal edilmiştir. Bunun yerine, deneysel çalışmada kaynak direncini temsil etmesi amacıyla hârici olarak $R_S = 100\Omega$'luk bir direnç kullanılmıştır. Deneyde yük direnci $R_L$ için sırasıyla $[22,47,100,150,180]\Omega$ değerleri seçilerek güç ölçümleri yapılmıştır.
+Bu devrede güç kaynağının iç direnci gerçekte çok küçük olduğundan ihmal edilmiştir. Bunun yerine, deneysel çalışmada kaynak direncini temsil etmesi amacıyla hârici olarak $R_S = 100\Omega$'luk bir direnç kullanılmıştır. Deneyde yük direnci $R_L$ için sırasıyla $[22,47,100,150,180]\Omega$ değerleri seçilerek güç ölçümleri yapılmıştır. **Not:** Güç ölçümü için hem voltaj hem akım ölçülmemiş, sadece gerilim ölçülerek gücün voltaj cinsinden eşdeğeri olan (aşağıda görebileceğiniz) ifade kullanılmıştır.
 
 Bu bölümde önce maksimum güç transferi için teorik olarak gerekli yük direnci $R_L$ değeri bulunacak, ardından sonuçlar Python kullanılarak sayısal olarak hesaplanıp grafiksel olarak gösterilecektir.
 
